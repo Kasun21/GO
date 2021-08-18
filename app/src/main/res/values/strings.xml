@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GO</string>
+    <string name="pay">pay</string>
+    <string name="Paymentamount">Payment amount</string>
+    <string name="VIEW_USER_PROFILE">VIEW USER PROFILE</string>
+    <string name="Payment_successfull">payment succesfull</string>
+    <string name="Confimation_message">Confirmation message</string>
+    <string name="Cash">cash</string>
+    <string name="Finish">string</string>
+    <string name="LKR">lkr</string>
+    <string name="Payment_amount">Payment Amount</string>
+    <string name="save_this_barcode">Save this Barcode</string>
+    <string name="Use_this_when_enter_to_the_bus">Use this when enter to the bus</string>
+    <string name="Select_your_payment_method" />
+    <string name="Select_your_payment_method2">Select your payment method</string>
+    <string name="Payment_Methods">Payment Method</string>
+    <string name="Payment1">Payment</string>
+    <string name="Pending1">Pending</string>
+    <string name="Cash1">Cash</string>
+    <string name="Card1">Card</string>
+    <string name="Barcode">Barcode for Entrance</string>
+    <string name="Using_enter">Use this barcode when enter to the bus</string>
+    <string name="OK1">OK</string>
+    <string name="Expiery_date">Expire date</string>
+    <string name="cvv1">***</string>
+    <string name="Name_on_card">Jesica Norman</string>
+    <string name="Card_number">1234 1234 1234 1234</string>
+
+
+</resources>

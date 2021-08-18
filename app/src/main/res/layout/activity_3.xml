@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+
+    <TextView
+        android:id="@+id/Cash"
+        android:layout_width="66dp"
+        android:layout_height="29dp"
+        android:text="@string/Cash"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="148dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="36dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFCFC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Cash"
+        app:srcCompat="@drawable/money" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="176dp"
+        android:layout_height="156dp"
+        app:srcCompat="@drawable/qrcode"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/Methods2"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#000000"
+        android:text="Finish"
+        android:textColor="#F8F5F5"
+        app:cornerRadius="20dp"
+        app:iconTint="#EFE1C6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/loginbutton3"
+        android:layout_width="412dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="380dp"
+        android:backgroundTint="#E6AAAA"
+        android:text="@string/save_this_barcode"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:iconTint="#EFE1C6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/loginbutton5"
+        android:layout_width="412dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="340dp"
+        android:backgroundTint="#F3AFAF"
+        android:text="@string/Use_this_when_enter_to_the_bus"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:iconTint="#EFE1C6"
+        app:layout_constraintBottom_toTopOf="@+id/imageView19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbutton3"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <Button
+        android:id="@+id/loginbutton2"
+        android:layout_width="414dp"
+        android:layout_height="71dp"
+        android:backgroundTint="#77B8EC"
+        android:text="Payment Amount                      1600.00LKR"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:iconTint="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="207dp"
+        android:layout_height="29dp"
+        android:text="Select your  payment  method"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="83dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/threedots"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="101dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#FFC107"
+        android:text="@string/Pending1"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:iconTint="#EFE1C6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Methods2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/loginbutton2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
